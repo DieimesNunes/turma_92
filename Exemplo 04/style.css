@@ -1,43 +1,63 @@
-h1, p{
+h1,
+p {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 8px;       
+    font-size: 8px;
 }
 
-#primeiro{
+#primeiro {
     color: green;
     font-size: 45px;
 }
 
-#segundo{
-   font-size: 8px;
+#segundo {
+    font-size: 8px;
 }
 
-#terceiro{
+#terceiro {
     color: yellow;
 }
-#quarto{
+
+#quarto {
     color: pink;
 }
 
-#quadrado{   
-    background-color: blue; /* Cor de fundo */
+#quadrado {
+    background-color: blue;
+    /* Cor de fundo */
 }
 
-#quadrado2 {   
-    background-color: rgb(60, 162, 37); /* Cor de fundo */
-}
-
-.basico{
-    width: 250px; /* Comprimento */
-    height: 40px; 
+#quadrado2 {
     background-color: rgb(60, 162, 37);
+    /* Cor de fundo */
+}
 
-    padding-top: 20px;
+.basico {
+    width: 250px;
+    /* Comprimento */
+    height: 40px;
+    /* Espaçamento interno */
 
 
 }
 
+#vermelho {
+    background-color: red;
 
+}
 
+#amarelo {
+    margin-top: 250px;
+    width: 150px;
+    height: 20px;
+    background-color: yellow;
+}
 
+#teste {
+    position: relative;
+    left: 30px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

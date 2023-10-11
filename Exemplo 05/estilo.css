@@ -1,0 +1,17 @@
+h1{
+    color: red;
+}
+
+#Naruto{
+    width: 20%;
+    height: auto;
+    border: solid 1px gray; /*Novo */
+
+}
+
+#Sasuke{
+    width: 20%;
+    height: auto;
+
+}
+
