@@ -1,17 +1,15 @@
 h1{
     color: red;
+    text-shadow: 2px 2px 2px black;
 }
 
-#Naruto{
+
+.quadradinho{
     width: 20%;
+    border: solid 2px gray; /*Novo */
     height: auto;
-    border: solid 1px gray; /*Novo */
-
+    margin-bottom: 40px;
 }
 
-#Sasuke{
-    width: 20%;
-    height: auto;
 
-}
 
