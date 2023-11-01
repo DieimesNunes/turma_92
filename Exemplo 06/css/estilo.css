@@ -7,21 +7,4 @@ h1{
 }
 
 
-.row{
-border-color: blueviolet;
-border-style: dashed;
-box-sizing: 2px;
-padding: 4px;
-}
-
-.col-4, .col-9, .col-3, .col-1, .col-10{
-    height: 70px;
-    border-color: rgb(73, 226, 43);
-    border-style: solid;
-    box-sizing: 2px;
-    
-}
-
-
-
 
