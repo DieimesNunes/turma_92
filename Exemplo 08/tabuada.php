@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
     <html lang="pt-br">
     <head>
@@ -17,6 +21,19 @@
                     <input type="text" name="bt_numero" id="">
                 </div>
                 <input class="btn btn-success" type="submit">
+                <hr>
+                <?php
+                    $tabuada = 0;
+                    if(isset($_POST["bt_numero"])){
+                        $tabuada = $_POST["bt_numero"];
+
+                        for ($i=0; $i <= 10; $i++) { 
+                            $resultado = $tabuada * $i;
+                            echo ("$tabuada X $i = " . $resultado);
+                            echo ("<br>");
+                        }
+                    }
+                ?>
             </form>
         </div>
 
