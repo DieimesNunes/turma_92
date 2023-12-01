@@ -23,13 +23,16 @@
                     <input type="text" name="bt_telefone" id="">
                 </div>
                 <div class="mb-3">
-                    <label for="">Telefone:</label><br>
-                    <textarea name="bt_telefone" id="" cols="30" rows="10"></textarea>
+                    <label for="">Mensagem:</label><br>
+                    <textarea name="bt_mensagem" id=""  maxlength="5"></textarea>
                 </div>
                 <hr>
+
+                
+                
                 <input class="btn btn-success" type="submit">
                 <input class="btn btn-warning" type="reset" value="Limpar">
-                <a class="btn btn-danger"href="#">Cancelar</a>                
+                <a class="btn btn-danger" href="#">Cancelar</a>                
                 <hr>               
             </form>
         </div>

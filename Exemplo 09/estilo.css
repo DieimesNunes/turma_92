@@ -1,6 +1,6 @@
 input[type="text"], textarea {
     width: 100%; 
-    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
     padding: 10px;
     border-radius: 4px;
     transition: border-color 0.3s;
